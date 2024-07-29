@@ -63,6 +63,58 @@
       text-align: center;
     }
 
+    .three-columns {
+      text-align: center;
+      font-size: 0;
+      padding: 15px 0 25px;
+    }
+
+
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+    }
+
+    .three-columns .padding {
+
+      padding: 15px;
+    }
+
+    .three-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0 5px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .two-columns.last {
+      padding: 15px 0;
+    }
+
+    .two-columns .padding {
+      padding: 20px;
+
+    }
+
+    .two-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+      text-align: left;
+    }
+
+    .button {
+      background-color: #ffffff;
+      color: #26292b;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
 
 
   </style>
@@ -76,7 +128,7 @@
 
       <!-- TOP HEADER -->
       <tr>
-        <td height="20" style="background-color: #171a1b;"></td>
+        <td height="20" style="background-color: #2b5876;"></td>
       </tr>
 
 
@@ -95,9 +147,9 @@
                   </tr>
                 </table>
 
-                 <!-- ADD A NEW TABLE SOCIAL MEDIA ICONS -->
+                <!-- ADD A NEW TABLE SOCIAL MEDIA ICONS -->
 
-                 <table class="column">
+                <table class="column">
                   <tr>
                     <td style="padding: 10px 72px;">
                       <a href="#"><img src="img/black-facebook.png" alt="Facebook" width="30" title="Facebook"></a>
@@ -106,7 +158,7 @@
                       <a href="#"><img src="img/black-linkedin.png" alt="Linkedin" width="30" title="Linkedin"></a>
                     </td>
                   </tr>
-                 </table>
+                </table>
               </td>
             </tr>
           </table>
@@ -125,7 +177,159 @@
 
       <!-- THREE COLUMN SECTION -->
 
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td class="three-columns">
+                <!-- FIRST COLUMN ICON-->
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href="#"><img src="img/email.png" alt="" width="130" style="max-width: 130px;"></a>
+                          </td>
+                        </tr>
+                      </table>
+                      <!---Add Text-->
+                  <tr>
+                    <td>
+                      <p style="font-weight: bold; font-size: 17px;">
+                        Ecommerce</p>
 
+                      <p>Lorem ipsum dolor, sit amet scipit fugiat asperiores. Molestiae, dolor accusantium! </p>
+                    </td>
+                  </tr>
+              </td>
+            </tr>
+          </table>
+
+          <!-- END OF FIRST COLUMN ICON-->
+
+          <!-- SECOND COLUMN ICON-->
+
+          <table class="column">
+            <tr>
+              <td class="padding">
+                <table class="content">
+                  <tr>
+                    <td>
+                      <a href="#"><img src="img/settings.png" alt="" width="130" style="max-width: 130px;"></a>
+                    </td>
+                  </tr>
+                </table>
+                <!---Add Text-->
+            <tr>
+              <td>
+                <p style="font-weight: bold; font-size: 17px;">
+                  Web Design</p>
+
+                <p>Lorem ipsum dolor, sit amet scipit fugiat asperiores. Molestiae, dolor accusantium! </p>
+              </td>
+            </tr>
+        </td>
+      </tr>
+    </table>
+
+    <!-- END OF SECOND COLUMN ICON-->
+
+    <!-- THIRD COLUMN ICON-->
+
+    <table class="column">
+      <tr>
+        <td class="padding">
+          <table class="content">
+            <tr>
+              <td>
+                <a href="#"><img src="img/home.png" alt="" width="130" style="max-width: 130px;"></a>
+              </td>
+            </tr>
+          </table>
+          <!---Add Text-->
+      <tr>
+        <td>
+          <p style="font-weight: bold; font-size: 17px;">
+            HTML Email</p>
+
+          <p>Lorem ipsum dolor, sit amet scipit fugiat asperiores. Molestiae, dolor accusantium! </p>
+        </td>
+      </tr>
+      </td>
+      </tr>
+    </table>
+
+    <!-- END OF THIRD COLUMN ICON-->
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+
+    <!-- TWO COLUMN SECTION-->
+
+    <tr>
+      <td style="background-color: #3c4b53;color: #ffffff">
+
+        <table width="100%">
+
+          <tr>
+            <td class="two-columns last">
+              <!--Image aside-->
+              <table class="column">
+                <tr>
+                  <td class="padding">
+
+                    <table class="content">
+                      <tr>
+                        <td>
+                          <a href="#"><img src="img/keyboard.jpg" alt="" width="260" style="max-width: 260px; border-radius: 8px;"></a>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+
+              <!---Image Aside Left end-->
+
+              <!--Image Aside Right-->
+
+              <table class="column">
+                <tr>
+                  <td class="padding">
+
+                    <table class="content">
+                      <tr>
+                        <td>
+                          <p style="font-weight: bold; font-size: 18px;">Create Custom Designs</p>
+                          <p style="padding-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Molestias error ea laboriosam
+                            a reprehenderit eos harum ut ex, necessitatibus natur in nam optio.</p>
+                          <a href="#" class="button">Read More</a>
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </table>
+
+              <!---Image Aside Right end-->
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+
+
+    <!-- TITLE; TEXT & BUTTON-->
+
+
+    <!--FOOTER SECTION-->
 
 
     </table>
